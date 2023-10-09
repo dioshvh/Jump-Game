@@ -9,11 +9,13 @@
     border: 1px solid black;
     margin: auto;
 }
-#character{
+#character {
     width: 20px;
     height: 50px;
-    background-color: red;
-    position:relative;
+    background-image: url('https://i.imgur.com/7z1vBm7.png'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el elemento */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    position: relative;
     top: 150px;
 }
 .animate{
